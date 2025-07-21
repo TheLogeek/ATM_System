@@ -89,7 +89,7 @@ public class atmSystem {
                 System.out.println(response);
             }
             refresh();
-            addNewLine();
+            clear();
             System.out.println(menu);
             System.out.print("\nEnter a valid option: ");
             choice = scanner.next().charAt(0);
@@ -128,7 +128,7 @@ public class atmSystem {
         System.out.print("1.. ");
         Thread.sleep(1000);
     }
-    static void addNewLine(){
+    static void clear(){
         System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 }
